@@ -1,0 +1,257 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/89826b939a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="title">
+      <h1 id="title">Texas</h1>
+    </header>
+    <section>
+      <p>
+        The above title is displayed as a block element. Block elements make
+        specified html tag take up the entire row, meaning nothing can be placed
+        besides it.
+      </p>
+      <h2>Texas Cities</h2>
+      <table>
+        <tr>
+          <th>City</th>
+          <th>Living Price</th>
+          <th>Crime Rate</th>
+        </tr>
+        <tr>
+          <td>Houston</td>
+          <td>$1,500</td>
+          <td>High</td>
+        </tr>
+        <tr>
+          <td>San Antonio</td>
+          <td>$2,000</td>
+          <td>Medium</td>
+        </tr>
+        <tr>
+          <td>Dallas</td>
+          <td>$3,000</td>
+          <td>Low</td>
+        </tr>
+      </table>
+      <hr />
+    </section>
+    <section>
+      <ul class="pop">
+        <li>Red</li>
+        <li>Blue</li>
+        <li>Orange</li>
+        <li>White</li>
+      </ul>
+      <ol type="i">
+        <li>RED</li>
+        <li>BLUE</li>
+        <li>ORANGE</li>
+        <li>WHITE</li>
+      </ol>
+      <p>
+        You can change the styles of list as an atribute using "type=''", or
+        inside css
+        <br />
+        You would do this by targeting the ul/ol and using, "list-style-type:"
+      </p>
+      <dl>
+        <dt>Coffee</dt>
+        <dd>- Black</dd>
+        <dt>Milk</dt>
+        <dd>- 2% fat free</dd>
+      </dl>
+      <div style="overflow-x: auto">
+        <table>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Points</th>
+            <th>Points</th>
+            <th>Points</th>
+            <th>Points</th>
+            <th>Points</th>
+            <th>Points</th>
+            <th>Points</th>
+            <th>Points</th>
+            <th>Points</th>
+            <th>Points</th>
+          </tr>
+          <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+            <td>94</td>
+            <td>94</td>
+            <td>94</td>
+            <td>94</td>
+            <td>94</td>
+            <td>94</td>
+            <td>94</td>
+            <td>94</td>
+            <td>94</td>
+          </tr>
+          <tr>
+            <td>Adam</td>
+            <td>Johnson</td>
+            <td>67</td>
+            <td>67</td>
+            <td>67</td>
+            <td>67</td>
+            <td>67</td>
+            <td>67</td>
+            <td>67</td>
+            <td>67</td>
+            <td>67</td>
+            <td>67</td>
+          </tr>
+        </table>
+        <p>
+          The table below creates a slider option if your screen is too small to
+          view its full content <br />
+          "overflow-x: auto" <br />
+          Make your browser view window smaller to test it out
+        </p>
+      </div>
+      <hr />
+    </section>
+    <section>
+      <h2 class="youtube-link">
+        <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">This link </a
+        >will take you to youtube
+      </h2>
+    </section>
+    <section>
+      <div class="over">
+        This div element will start to act up if the screen size is smaller then
+        800px
+      </div>
+      <div class="stay">This div element will not</div>
+      <p>
+        On the first div we specified a width of 800px, causing the div to act
+        up when the screen is smaller then 800px. <br />
+        We can counter this by using "max-width:#px". <br />
+        This will allow the width of the div to shrink regardless of the screen
+        size <br />
+        If the screen size is big enough, the div will keep its max width.
+      </p>
+    </section>
+    <section id="positions">
+      <div id="static">
+        HTML elements are positioned static by default. I'm like every other
+        element
+      </div>
+      <div id="relative">
+        I am positioned relative. I worked like static but you can move me
+        around and ill move relative to my original position
+        <b>BUT</b>
+      </div>
+      <div id="fixed">
+        <button>Im fixed</button>
+      </div>
+      <div id="absolute">
+        I'm absolute, meaning i break away from my parent element, im not
+        positioned based of my regular position, but based of my ancestor. You
+        can keep me in my container by setting my parent to relative, but ill
+        still be out of regular flow
+      </div>
+      <div id="sticky">
+        I follow you depending on your scroll <br />
+        Set my top value to 0 for me to work STICKY Im like those navbars that
+        follow you everywhere
+      </div>
+    </section>
+    <hr />
+
+    <h2>Image Text</h2>
+    <p>Add some text to an image in the top left corner:</p>
+
+    <div class="container">
+      <img
+        class="img"
+        src="https://th.bing.com/th/id/R.8a1210b6f4c64ae8bb48f418607b344c?rik=yFkVqY6OmidFNQ&pid=ImgRaw&r=0&sres=1&sresct=1"
+        alt="Cinque Terre"
+        width="1000"
+        height="300"
+      />
+      <div class="topleft">Top Left</div>
+      <div class="bottomleft">Bottom left</div>
+      <div class="center">center</div>
+      <div class="topright">Top Right</div>
+      <div class="bottomright">Bottom Right</div>
+    </div>
+    <p>
+      Setting the cointainer which holds the image and text to relative, and
+      then assigning all the text absolute plus directions, i overlayed text
+      over the image :)
+    </p>
+    <hr />
+    <section class="birb">
+      <h1>BIRDS</h1>
+      <h3>Lorem, ipsum.</h3>
+      <p class="a">
+        Setting the img z-index to -1 allows for us oveley text over an image
+        how we would have above <br />
+        z-index only works on positioned and flex items
+      </p>
+      <img
+        class="bird"
+        src="https://th.bing.com/th/id/R.4cffb46d4095919634d84e16e766d4bf?rik=qPlJhtVbpl9N7w&riu=http%3a%2f%2fwww.wallpapers13.com%2fwp-content%2fuploads%2f2016%2f05%2fWhite-beautiful-bird-image.jpg&ehk=dHxpn45FK80w8vJs7GHgVlMKHvTinyiymPEtEZGv%2f6A%3d&risl=&pid=ImgRaw&r=0"
+        alt=""
+      />
+    </section>
+    <hr />
+    <br /><br /><br /><br /><br /><br /><br />
+    <br /><br />
+    <div class="aaa">
+      <div class="overflow">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nulla
+        distinctio vel ullam perspiciatis delectus eligendi facere vitae soluta
+        numquam quibusdam suscipit ab, quia ex ipsum quidem nihil harum optio
+        saepe explicabo consectetur illum. Similique sint porro sed cum nemo
+      </div>
+      <p style="display: in-line block; float: left">
+        As you can see theirs an overflow so we add a scroll <br />
+        You can either set one by overflow: scroll, or to overflow: auto <br />
+        overflow-x:scroll gives us a scroller on the x axis <br />
+        overflow-t:scroll gives us a scroller on the y axis
+      </p>
+    </div>
+    <div style="float: right">
+      <p style="float: inherit">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque porro
+        repellendus doloribus laudantium blanditiis adipisci quo, possimus
+        accusantium eveniet quos.
+      </p>
+    </div>
+  </body>
+</html>
